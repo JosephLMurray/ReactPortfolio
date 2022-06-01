@@ -1,0 +1,18 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Tiro Kannada';
+  src: url('./assets/fonts/TiroKannada-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Tiro Telugu';
+  src: url('./assets/fonts/TiroTelugu-Regular.ttf') format('ttf');
+}
+
+input,
+textarea {
+  font-family: 'Tiro Telugu';
+}
