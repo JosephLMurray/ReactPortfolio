@@ -15,10 +15,10 @@ nav {
     }
 
     &:hover {
-      color: black;
+      color: #1b1a23;
 
       svg {
-        opacity: 0;
+        opacity: 0.3;
       }
 
       &:after {
@@ -27,45 +27,48 @@ nav {
     }
 
     &:after {
-      font-size: 10rem;
-      letter-spacing: 0.2rem;
+      content: '';
+      font-size: 4rem;
+      letter-spacing: 0.18rem;
       position: absolute;
-      bottom: 0;
+      font-weight: bold;
+      top: 10%;
+      right: 25%;
       display: block;
+      height: 100%;
       text-align: center;
-      width: 100%;
       opacity: 0;
       transition: all 0.3s ease-out;
+    }
+
+    &:first-child {
+      &::after {
+        content: 'HOME';
+      }
     }
   }
 
   a.about-link {
-    &:first-child {
-      &::after {
-        content: 'About';
-      }
+    &:after {
+      content: 'ABOUT';
     }
   }
 
   a.contact-link {
-    &:first-child {
-      &::after {
-        content: 'Contact';
-      }
+    &:after {
+      content: 'CONTACT';
     }
   }
+}
 
-  a.project-link {
-    &:first-child {
-      &::after {
-        content: 'Projects';
-      }
-    }
+a.project-link {
+  &:after {
+    content: 'PROJECTS';
   }
+}
 
-  a.active {
-    svg {
-      color: #b85600;
-    }
+a.active {
+  svg {
+    color: #b85600;
   }
 }
