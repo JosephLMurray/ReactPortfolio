@@ -1,14 +1,17 @@
-import React from "react";
+import React from 'react'
+import Navigation from './Navigation/Navigation'
+import './index.scss'
+import Header from './Header/Header'
+import Footer from './Footer/Footer'
 
 const Projects = () => {
   return (
-    <main>
-      <div className="flex-row justify-center">
-        <div></div>
-
-        <div className="col-12 col-md-10 my-3"></div>
-      </div>
-    </main>
-  );
-};
-export default Projects;
+    <div className="App">
+      <Header />
+      <Navigation />
+      <div className="page"></div>
+      <Footer />
+    </div>
+  )
+}
+export default Projects
