@@ -1,6 +1,7 @@
-import Navigation from "../Navigation";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Navigation from '../Navigation/Navigation'
+import './index.scss'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 const Layout = () => {
   return (
@@ -9,7 +10,7 @@ const Layout = () => {
       <Navigation />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

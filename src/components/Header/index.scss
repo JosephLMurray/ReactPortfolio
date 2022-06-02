@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  height: 6rem;
+  width: 100%;
+  top: 0;
+  min-width: 100%;
+  z-index: 3;
+
+  img {
+    display: inline-flex;
+    margin: auto 0.8rem;
+    width: auto;
+    height: 14rem;
+  }
+}
