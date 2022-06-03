@@ -1,8 +1,7 @@
-import React from 'react'
-import Navigation from './Navigation/Navigation'
+import Navigation from '../../Navigation/Navigation'
+import Header from '../../Header/Header'
+import Footer from '../../Footer/Footer'
 import './index.scss'
-import Header from './Header/Header'
-import Footer from './Footer/Footer'
 
 const Projects = () => {
   return (
