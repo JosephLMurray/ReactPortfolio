@@ -1,39 +1,3 @@
 body {
   background-image: url(../../../assets/images/woodHero.jpg);
 }
-
-.page {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-
-  .column {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    h2 {
-      background-color: rgb(234, 222, 218, 0.35);
-      position: relative;
-      display: inline-flex;
-      margin: 0;
-      font-size: 600%;
-      font-family: 'Tiru Kannada';
-      color: #1b1a23;
-    }
-
-    h4 {
-      background-color: rgb(234, 222, 218, 0.35);
-      margin: 0;
-      padding: 0 14.5rem;
-      display: inline-flex;
-      font-size: 300%;
-      color: #1b1a23;
-    }
-  }
-}

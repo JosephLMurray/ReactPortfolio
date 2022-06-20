@@ -10,7 +10,7 @@ import './index.scss'
 
 const Navigation = () => {
   return (
-    <div>
+    <div className="col-10">
       <nav>
         <NavLink
           exact="true"

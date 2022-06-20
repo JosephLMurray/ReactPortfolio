@@ -4,9 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import './index.scss'
 
+const showPDF = (directory) => {
+  window.open(directory)
+}
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className="h-1/6">
       <ul>
         <li>
           <a
@@ -27,11 +31,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="../../assets/docs/resume.pdf"
-          >
+          <a target="_blank" href="../../assets/docs/resume.pdf">
             <FontAwesomeIcon icon={faFileArrowDown} color="#1B1A23" />
           </a>
         </li>
