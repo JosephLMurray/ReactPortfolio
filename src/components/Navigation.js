@@ -6,12 +6,12 @@ const Navigation = () => {
   return (
     <>
       <nav
-        className="flex justify-between shadow-md items-center min-w-full h-20 text-black relative font-kannada"
+        className="flex justify-between py-2 shadow-md items-center min-w-full h-16 text-black relative font-kannada"
         role="navigation"
       >
         <Link to="/" className="pl-8">
           <img
-            className="md:object-scale-down h-20 w-20"
+            className="md:object-scale-down h-16 w-16"
             src={Monogram}
             alt="mongoram"
           />
@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="px-4 cursor-pointer md:hidden ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-16 w-16"
+            className="h-14 w-14"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -32,11 +32,12 @@ const Navigation = () => {
             />
           </svg>
         </div>
-        <div className="pr-8 pt-4  md:flex hidden flex-row">
-          <NavLink className="p-4 group" activeClassName="active" to="/">
+        <div className="pr-8 md:flex hidden flex-row">
+          <NavLink className="p-4" to="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 group-active:fill-orange"
+              id=""
+              className="h-14 w-14"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -46,7 +47,7 @@ const Navigation = () => {
           <NavLink className="p-4 " to="/about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 active:fill-orange"
+              className="h-14 w-14"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -60,7 +61,7 @@ const Navigation = () => {
           <NavLink className="p-4 " to="/contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 active:fill-orange"
+              className="h-14 w-14 "
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -71,7 +72,7 @@ const Navigation = () => {
           <NavLink className="p-4 " to="/projects">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 active:fill-orange"
+              className="h-14 w-14 "
               viewBox="0 0 20 20"
               fill="currentColor"
             >
