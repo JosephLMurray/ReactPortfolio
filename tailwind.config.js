@@ -18,7 +18,15 @@ module.exports = {
       gray: '#8492a6',
       'gray-light': '#d3dce6',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        kannada: ['Kannada', 'sans-serif'],
+        telugu: ['Telugu', 'cursive'],
+      },
+      backgroundImage: {
+        bgHero: "url('/src/assets/images/woodHero.jpg')",
+      },
+    },
   },
   plugins: [],
 }

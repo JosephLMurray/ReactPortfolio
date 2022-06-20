@@ -1,18 +1,14 @@
 import './App.scss'
-import Home from './components/pages/Home'
-import About from './components/pages/About'
-import Contact from './components/pages/Contact'
-import Projects from './components/pages/Projects'
-import { Routes, Route } from 'react-router-dom'
+import Hero from './components/Hero'
+
+import Navigation from './components/Navigation'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />}></Route>
-      <Route path="/About" element={<About />}></Route>
-      <Route path="/Contact" element={<Contact />}></Route>
-      <Route path="/Projects" element={<Projects />}></Route>
-    </Routes>
+    <div className="bg-bgHero container min-h-full min-w-full flex flex-wrap">
+      <Navigation />
+      <Hero />
+    </div>
   )
 }
 
