@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 import Monogram from '../assets/images/jm-logo.png'
 
-const Navigation = () => {
+const Navigation = ({ toggle }) => {
   return (
     <>
       <nav
@@ -16,7 +16,7 @@ const Navigation = () => {
             alt="mongoram"
           />
         </Link>
-        <div className="px-4 cursor-pointer md:hidden ">
+        <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-14 w-14"

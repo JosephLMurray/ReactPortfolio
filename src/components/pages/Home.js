@@ -1,28 +1,14 @@
-import Navigation from '../../Navigation/Navigation'
-import Header from '../../Header/Header'
-import Footer from '../../Footer/Footer'
-import './index.scss'
+import React from 'react'
 
 const Home = () => {
   return (
-    <div className="App flex columns-1 wrap min-h-screen min-w-screen ">
-      <div className=" flex-row justify-between items-between m-3 h-1/6">
-        <div className="flex-col">
-          <Header />
-        </div>
-        <div className="flex-col">
-          <Navigation />
-        </div>
-      </div>
-      <div className=" flex-row flex-grow h-2/3 ">
-        <div className="flex-col  justify-center items-center ">
-          <h2 className="font-bold center ">Joseph L. Murray, Jr.</h2>
-          <h4>Full Stack Developer</h4>
-        </div>
-      </div>
-      <div className="flex-1 flex-row h-1/6">
-        <Footer />
-      </div>
+    <div className="flex flex-col w-full justify-center items-center">
+      <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-telugu p-2 text-stone-900">
+        Joseph Murray, Jr.
+      </h1>
+      <h2 className="lg:text-7xl md:text-5xl sm:text-3xl text-2xl p-1 text-black-800 font-kannada">
+        Full Stack Developer
+      </h2>
     </div>
   )
 }

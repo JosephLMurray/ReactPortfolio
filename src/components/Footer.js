@@ -2,7 +2,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import './index.scss'
 
 const showPDF = (directory) => {
   window.open(directory)
@@ -10,29 +9,37 @@ const showPDF = (directory) => {
 
 const Footer = () => {
   return (
-    <footer className="h-1/6">
-      <ul>
-        <li>
+    <footer className="h-16 flex-col flex w-full justify-end items-end ">
+      <ul className=" w-full inline-flex justify-center items-center">
+        <li className="p-4 ">
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/joseph-murray-99374522b/"
+            href="https://www.linkedin.com/in/joseph-murray-jr/"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#1B1A23" />
+            <FontAwesomeIcon
+              className="h-12"
+              icon={faLinkedin}
+              color="#1B1A23"
+            />
           </a>
         </li>
-        <li>
+        <li className="p-4 ">
           <a
             target="_blank"
             rel="noreferrer"
             href="https://github.com/JosephLMurray"
           >
-            <FontAwesomeIcon icon={faGithub} color="#1B1A23" />
+            <FontAwesomeIcon className="h-12" icon={faGithub} color="#1B1A23" />
           </a>
         </li>
-        <li>
+        <li className="p-4 ">
           <a target="_blank" href="../../assets/docs/resume.pdf">
-            <FontAwesomeIcon icon={faFileArrowDown} color="#1B1A23" />
+            <FontAwesomeIcon
+              className="h-12"
+              icon={faFileArrowDown}
+              color="#1B1A23"
+            />
           </a>
         </li>
       </ul>
