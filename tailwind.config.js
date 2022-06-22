@@ -17,6 +17,15 @@ module.exports = {
       'gray-dark': '#273444',
       gray: '#8492a6',
       'gray-light': '#d3dce6',
+      primary: '#ffedd5',
+      secondary: '#fdba74',
+      accent: '#f97316',
+      neutral: '#1c1917',
+      'base-100': '#f5f5f4',
+      info: '#38bdf8',
+      success: '#15803d',
+      warning: '#fde047',
+      error: '#f43f5e',
     },
     extend: {
       fontFamily: {

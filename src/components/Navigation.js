@@ -37,7 +37,7 @@ const Navigation = ({ toggle }) => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               id=""
-              className="h-14 w-14"
+              className="h-14 w-14 hover:fill-accent"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -47,7 +47,7 @@ const Navigation = ({ toggle }) => {
           <NavLink className="p-4 " to="/about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-14 w-14"
+              className="h-14 w-14 hover:fill-accent"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -61,7 +61,7 @@ const Navigation = ({ toggle }) => {
           <NavLink className="p-4 " to="/contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-14 w-14 "
+              className="h-14 w-14 hover:fill-accent"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -72,7 +72,7 @@ const Navigation = ({ toggle }) => {
           <NavLink className="p-4 " to="/projects">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-14 w-14 "
+              className="h-14 w-14 hover:fill-accent"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
