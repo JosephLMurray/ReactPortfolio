@@ -2,6 +2,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import pdf from '../assets/docs/resume.pdf'
 
 const Footer = () => {
   return (
@@ -14,9 +15,9 @@ const Footer = () => {
             href="https://www.linkedin.com/in/joseph-murray-jr/"
           >
             <FontAwesomeIcon
-              className="h-12 hover:text-accent"
+              className="h-12 hover:text-secondary"
               icon={faLinkedin}
-              color="#1B1A23"
+              color="#d3dce6"
             />
           </a>
         </li>
@@ -27,18 +28,18 @@ const Footer = () => {
             href="https://github.com/JosephLMurray"
           >
             <FontAwesomeIcon
-              className="h-12 hover:text-accent"
+              className="h-12 hover:text-secondary"
               icon={faGithub}
-              color="#1B1A23"
+              color="#d3dce6"
             />
           </a>
         </li>
         <li className="p-4 ">
-          <a target="_blank" href="../../assets/docs/resume.pdf">
+          <a target="_blank" href={pdf} rel="noreferrer">
             <FontAwesomeIcon
-              className="h-12 hover:text-accent"
+              className="h-12 hover:text-secondary"
               icon={faFileArrowDown}
-              color="#1B1A23"
+              color="#d3dce6"
             />
           </a>
         </li>

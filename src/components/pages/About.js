@@ -6,7 +6,7 @@ const About = () => {
       <p
         className="first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-  first-letter:mr-3 first-letter:float-left p-12 leading-8 m-4 text-xl max-w-prose bg-primary bg-opacity-70 rounded-md border-x-gray-dark"
+  first-letter:mr-3 first-letter:float-left p-12 leading-8 m-4 text-xl font-specialelite max-w-prose bg-primary bg-opacity-70 rounded-md border-x-gray-dark"
       >
         Thank you for taking the time to visit my portfolio. My name is Joseph
         Murray, Jr and I'm a product of the UCF Coding Bootcamp . Prior to that,

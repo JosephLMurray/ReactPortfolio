@@ -6,12 +6,12 @@ const Navigation = ({ toggle }) => {
   return (
     <>
       <nav
-        className="flex justify-between py-2 shadow-md items-center min-w-full h-16 text-black relative font-kannada"
+        className="flex justify-between py-2 shadow-md items-center min-w-full h-16 text-white relative font-rocksalt"
         role="navigation"
       >
         <Link to="/" className="pl-8">
           <img
-            className="md:object-scale-down h-16 w-16"
+            className="md:object-scale-down h-16 w-16 fill-gray"
             src={Monogram}
             alt="mongoram"
           />
@@ -37,7 +37,7 @@ const Navigation = ({ toggle }) => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               id=""
-              className="h-14 w-14 hover:fill-accent"
+              className="h-14 w-14 fill-primary hover:fill-secondary"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -47,7 +47,7 @@ const Navigation = ({ toggle }) => {
           <NavLink className="p-4 " to="/about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-14 w-14 hover:fill-accent"
+              className="h-14 w-14 fill-primary hover:fill-secondary"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -61,7 +61,7 @@ const Navigation = ({ toggle }) => {
           <NavLink className="p-4 " to="/contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-14 w-14 hover:fill-accent"
+              className="h-14 w-14 fill-primary hover:fill-secondary"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -72,7 +72,7 @@ const Navigation = ({ toggle }) => {
           <NavLink className="p-4 " to="/projects">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-14 w-14 hover:fill-accent"
+              className="h-14 w-14 fill-primary hover:fill-secondary"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
