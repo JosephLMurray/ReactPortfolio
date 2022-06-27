@@ -34,7 +34,7 @@ function App() {
       <Navigation toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ReactPortfolio" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
