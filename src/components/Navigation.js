@@ -9,7 +9,7 @@ const Navigation = ({ toggle }) => {
         className="flex flex-row justify-between py-2 shadow-md items-center min-w-full h-16 text-white relative top-0 "
         role="navigation"
       >
-        <Link to="/" className="pl-8">
+        <Link to="/ReactPortfolio" className="pl-8">
           <img
             className="md:object-scale-down h-16 w-16 fill-gray"
             src={Monogram}
@@ -33,7 +33,7 @@ const Navigation = ({ toggle }) => {
           </svg>
         </div>
         <div className="pr-8 md:flex hidden flex-row">
-          <NavLink className="p-4" to="/">
+          <NavLink className="p-4" to="/ReactPortfolio">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               id=""

@@ -11,7 +11,7 @@ const Dropdown = ({ isOpen, toggle }) => {
       }
       onClick={toggle}
     >
-      <Link to="/" className="p-2 mx-4 border-2 rounded-md">
+      <Link to="/ReactPortfolio" className="p-2 mx-4 border-2 rounded-md">
         Home
       </Link>
       <Link to="/about" className="p-2 mx-4 border-2 rounded-md">
