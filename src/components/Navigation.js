@@ -6,7 +6,7 @@ const Navigation = ({ toggle }) => {
   return (
     <>
       <nav
-        className="flex justify-between py-2 shadow-md items-center min-w-full h-16 text-white relative font-rocksalt"
+        className="flex flex-row justify-between py-2 shadow-md items-center min-w-full h-16 text-white relative top-0 "
         role="navigation"
       >
         <Link to="/" className="pl-8">

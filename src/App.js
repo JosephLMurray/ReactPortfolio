@@ -30,7 +30,7 @@ function App() {
     }
   })
   return (
-    <div className="bg-bgHero bg-cover container min-h-screen min-w-full justify-between flex flex-wrap">
+    <div className="bg-bgHero bg-cover container min-h-screen m-0 min-w-full justify-between items-center flex-col flex flex-wrap">
       <Navigation toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Routes>

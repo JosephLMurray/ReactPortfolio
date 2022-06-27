@@ -6,7 +6,7 @@ import pdf from '../assets/docs/resume.pdf'
 
 const Footer = () => {
   return (
-    <footer className="h-16 flex-col flex w-full justify-end items-end ">
+    <div className="h-16 flex-col flex w-full justify-center items-center relative bottom-0 ">
       <ul className=" w-full inline-flex justify-center items-center">
         <li className="p-4 ">
           <a
@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-    </footer>
+    </div>
   )
 }
 

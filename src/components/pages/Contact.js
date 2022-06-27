@@ -43,22 +43,25 @@ const Contact = () => {
 
   return (
     <>
-      <div className="flex flex-col md:w-1/2 w-full justify-center items-center">
+      <div className="flex flex-col md:w-2/5 w-full items-center justify-center ">
+        <h1 className="lg:text-7xl md:text-5xl sm:text-3xl text-xl font-mono p-2 text-white">
+          Contact Me:
+        </h1>
         <h2
           className="first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-  first-letter:mr-3 first-letter:float-left p-8 leading-8 m-4 text-xl max-w-prose bg-primary bg-opacity-70 rounded-md border-x-gray-dark"
+  first-letter:mr-3 first-letter:float-left p-10 leading-8 md:m-8 m-12 text-xl max-w-prose bg-primary font-mono bg-opacity-70 rounded-md border-x-gray-dark"
         >
           I am always interested in continuing to hone my skills or learn new
           ones. With that in mind or if you'd just like to reach out with a
           request or question, don't hesitate to contact me using this form.
         </h2>
       </div>
-      <div className="flex flex-col md:w-1/2 w-full justify-center items-center pl-3 ">
+      <div className="flex flex-col md:w-2/5 w-full justify-center font-mono mb-16 ">
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="grid grid-col-2 bg-primary bg-opacity-70 rounded-md border-x-gray-dark p-4"
+          className="grid grid-col-2 bg-primary bg-opacity-70 rounded-md mx-12 border-x-gray-dark p-4"
         >
           <div className="mb-6 col-span-1 pr-2">
             <label

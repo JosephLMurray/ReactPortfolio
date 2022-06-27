@@ -6,21 +6,21 @@ const Dropdown = ({ isOpen, toggle }) => {
     <div
       className={
         isOpen
-          ? 'grid grid-rows-4 text-center items-center shadow-sm'
+          ? 'flex flex-row text-center justify-around text-white shadow-sm'
           : 'hidden'
       }
       onClick={toggle}
     >
-      <Link to="/" className="p-2">
+      <Link to="/" className="p-2 mx-4 border-2 rounded-md">
         Home
       </Link>
-      <Link to="/about" className="p-2">
+      <Link to="/about" className="p-2 mx-4 border-2 rounded-md">
         About
       </Link>
-      <Link to="/contact" className="p-2">
+      <Link to="/contact" className="p-2 mx-4 border-2 rounded-md">
         Contact
       </Link>
-      <Link to="/projects" className="p-2">
+      <Link to="/projects" className="p-2 mx-414 border-2 rounded-md">
         Projects
       </Link>
     </div>
